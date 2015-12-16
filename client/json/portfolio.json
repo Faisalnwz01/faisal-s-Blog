@@ -1,0 +1,92 @@
+{
+  "portfolio": [{
+    "path": "contents/single-portfolio.html",
+    "portfolioImg": "img/portfolio/3.jpg",
+    "categories": "creative",
+    "avatarImg": "img/me-1.jpg",
+    "avatarName": "Jane Smith",
+    "description": "Seed that <span class='accent'>dry grass</span>. Forth. Evening, you. Moveth, lights fish. "
+
+  }, {
+    "path": "contents/single-portfolio.html",
+    "portfolioImg": "img/portfolio/4.jpg",
+    "categories": "3d",
+    "avatarImg": "img/me-1.jpg",
+    "avatarName": "Jane Smith",
+    "description": "Seed that <span class='accent'>dry grass</span>. Forth. Evening, you. Moveth, lights fish. "
+
+  }, {
+    "path": "contents/single-portfolio.html",
+    "portfolioImg": "img/portfolio/5.jpg",
+    "categories": "art",
+    "avatarImg": "img/me-1.jpg",
+    "avatarName": "Jane Smith",
+    "description": "Seed that <span class='accent'>dry grass</span>. Forth. Evening, you. Moveth, lights fish. "
+
+  }, {
+    "path": "contents/single-portfolio.html",
+    "portfolioImg": "assets/img/jobsies.png",
+    "categories": "Machine Learning",
+    "avatarImg": "assets/img/jobsies.png",
+    "avatarName": "Jobsies",
+    "description": "Web and mobile App Built to <span class='accent'>simplify job search</span> and application process."
+
+  }, {
+    "path": "contents/single-portfolio.html",
+    "portfolioImg": "assets/img/trait.png",
+    "categories": "Machine Learning",
+    "avatarImg": "assets/img/trait.png",
+    "avatarName": "Trait",
+    "description": "Trait - Social-Media <span class='accent'>personality Analysis</span>"
+
+  }, {
+    "path": "contents/single-portfolio.html",
+    "portfolioImg": "assets/img/NYtimes.png",
+    "categories": "Hackathon",
+    "avatarImg": "assets/img/NYtimes.png",
+    "avatarName": "NYT Game",
+    "description": "A New York Times <span class='accent'>Hackathon project</span>. Built a game algorithm for NYT that takes in articles from NYT API and outputs a quiz based on that article."
+
+  }, {
+    "path": "contents/single-portfolio.html",
+    "portfolioImg": "assets/img/stackstore.png",
+    "categories": "commerce",
+    "avatarImg": "assets/img/stackstore.png",
+    "avatarName": "Stack Store",
+    "description": "<span class='accent'>E-commerce</span> website that includes all aspects of shopping online; include shopping by category, checkout with Stripe, a recommendation engine, and fully built shopping cart."
+
+  }],
+  "blog": [{
+    "path": "contents/single-blog.html",
+    "blogImg": "img/blog/2.jpg",
+    "title": "Have subdue man deep moveth thing winged void hath sixth.",
+    "author": "Ralph Ferguson",
+    "date": "13/08/2015",
+    "commentsNumber": "+5 comments",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repudiandae blanditiis, quia enim soluta, possimus voluptatibus ea nam natus vel sed aspernatur nihil voluptas fugiat pariatur nemo odio atque tempore."
+  }, {
+    "path": "contents/single-blog.html",
+    "blogIframe": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/65833474&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+    "title": "Have subdue man deep moveth thing winged void hath sixth.",
+    "author": "Ralph Ferguson",
+    "date": "13/08/2015",
+    "commentsNumber": "+5 comments",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repudiandae blanditiis, quia enim soluta, possimus voluptatibus ea nam natus vel sed aspernatur nihil voluptas fugiat pariatur nemo odio atque tempore."
+  }, {
+    "path": "contents/single-blog.html",
+    "blogIframe": "https://www.youtube.com/embed/ARM42-eorzE",
+    "title": "Have subdue man deep moveth thing winged void hath sixth.",
+    "author": "Ralph Ferguson",
+    "date": "13/08/2015",
+    "commentsNumber": "+5 comments",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repudiandae blanditiis, quia enim soluta, possimus voluptatibus ea nam natus vel sed aspernatur nihil voluptas fugiat pariatur nemo odio atque tempore."
+  }, {
+    "path": "contents/single-blog.html",
+    "blogImg": "img/blog/3.jpg",
+    "title": "Have subdue man deep moveth thing winged void hath sixth.",
+    "author": "Ralph Ferguson",
+    "date": "13/08/2015",
+    "commentsNumber": "+5 comments",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repudiandae blanditiis, quia enim soluta, possimus voluptatibus ea nam natus vel sed aspernatur nihil voluptas fugiat pariatur nemo odio atque tempore."
+  }]
+}
