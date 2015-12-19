@@ -2,13 +2,31 @@
     <div data-ng-include="loadViews" class="slide-top" data-ng-if="menu">
     </div>
     <div class="portfolio-page" data-ng-if="!menu">
-        <h1 class="title primary-font">Portfolio</h1>
-        <div ng-repeat="elm in mainpPortfolio " class="info-content loading-items primary slide-top" path="{{elm.path}}">
+      <h1 class="title primary-font">Portfolio</h1>
+
+      <div class="single-info-container currentProj">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="assets/img/cityGrade.png">
+          </div>
+          <div class="col-md-9">
+            <h1 class="title primary-font">Current Project</h1>
+            <h4>City Grade lets you know the truth behind NYC restaurant health grades. Even if you see a window with an A, mice may be infesting and undercooked food being served. City Grade lets you know where NOT to eat! Want to know your favorite restaurant's darkest secrets? Download City Grade now!</h4>
+            <div class="column">
+              <h4 class="loading-items">You can get it on </h4>
+            <a href="https://play.google.com/store/apps/details?id=com.stackers.CityGrade2" style="cursor:pointer;"><img ng-click="" style="width: 172px;height: 60px;" src="assets/img/en_generic_rgb_wo_60.png"></a>
+          </div>
+          </div>
+        </div>
+
+      </div>
+        <h1 class="title primary-font">Past Projects</h1>
+        <div ng-repeat="elm in mainpPortfolio " style="max-height: 730px;" class="info-content loading-items primary slide-top" path="{{elm.path}}">
             <img ng-src="{{elm.portfolioImg}}" alt="">
             <div class="cover primary">
                 <img ng-src="{{elm.avatarImg}}" alt="" class="portfolio-avatar">
                 <span class="icon">
-                    <i class="user"></i> by {{elm.avatarName}}
+                    <i class="user"></i> {{elm.avatarName}}
                 </span>
                 <h2 class="info-title loading-items" path="contents/single-portfolio.html" ng-bind-html="elm.description"></h2>
             </div>

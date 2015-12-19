@@ -1,27 +1,18 @@
 {
-  "portfolio": [{
+  "portfolio": [ {
     "path": "contents/single-portfolio.html",
-    "portfolioImg": "img/portfolio/3.jpg",
-    "categories": "creative",
-    "avatarImg": "img/me-1.jpg",
-    "avatarName": "Jane Smith",
-    "description": "Seed that <span class='accent'>dry grass</span>. Forth. Evening, you. Moveth, lights fish. "
-
+    "portfolioImg": "assets/img/masjidFinder.png",
+    "categories": "mobile",
+    "avatarImg": "assets/img/masjidFinder.png",
+    "avatarName": "Masjid Finder",
+    "description": "A <span class='accent'>Masjid finder</span> that will look up your current coordinates and locate 25 nearests Masjids in the area. Also built in is the prayer times ang sunrise for that area. "
   }, {
     "path": "contents/single-portfolio.html",
-    "portfolioImg": "img/portfolio/4.jpg",
-    "categories": "3d",
-    "avatarImg": "img/me-1.jpg",
-    "avatarName": "Jane Smith",
-    "description": "Seed that <span class='accent'>dry grass</span>. Forth. Evening, you. Moveth, lights fish. "
-
-  }, {
-    "path": "contents/single-portfolio.html",
-    "portfolioImg": "img/portfolio/5.jpg",
-    "categories": "art",
-    "avatarImg": "img/me-1.jpg",
-    "avatarName": "Jane Smith",
-    "description": "Seed that <span class='accent'>dry grass</span>. Forth. Evening, you. Moveth, lights fish. "
+    "portfolioImg": "assets/img/jobsiesMobile.png",
+    "categories": "Mobile",
+    "avatarImg": "assets/img/jobsiesMobile.png",
+    "avatarName": "Jobsies Mobile",
+    "description": "Mobile App Built to <span class='accent'>simplify job search</span> and application process."
 
   }, {
     "path": "contents/single-portfolio.html",

@@ -177,10 +177,10 @@ angular.module('resumeApp')
     template: '<div ng-click="dataLoad()" ng-transclude></div>',
     link: function(scope, element, attribute) {
       element.on('click', function() {
-        $rootScope.menu = true;
-        $rootScope.loadViews = attribute['path'];
-        $location.hash('theMain')
-        $anchorScroll()
+        // $rootScope.menu = true;
+        // $rootScope.loadViews = attribute['path'];
+        // $location.hash('theMain')
+        // $anchorScroll()
       })
     }
   }

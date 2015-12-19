@@ -3,7 +3,7 @@
 
 function MainController($scope, $rootScope, $timeout, $location, $anchorScroll, $http, $sce) {
   $scope.colorContainer = false;
-  $rootScope.openColorChanger = function() {
+  $scope.openColorChanger = function() {
       return $scope.colorContainer = !$scope.colorContainer;
   }
   $rootScope.colors = "css/blue.css";
@@ -44,7 +44,7 @@ function MainController($scope, $rootScope, $timeout, $location, $anchorScroll, 
       $rootScope.menu = false;
       $location.path('/').hash('')
   }
-  $rootScope.blog = false;
+  $rootScope.blog = true;
   $scope.itemone = false;
   $timeout(function() {
       $scope.itemone = true;

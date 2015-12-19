@@ -194,7 +194,7 @@ textarea.ng-dirty ~ label {
     height: 100%;
     position: fixed;
     z-index: 9999;
-    background-color: #6CAFEC;
+    background-color: white;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     -o-transition: all ease 0.3s;
@@ -203,7 +203,7 @@ textarea.ng-dirty ~ label {
 
 .loads h1 {
     text-align: center;
-    color: #fff;
+    color: black;
     letter-spacing: 1.2px;
     font-size: 1.4em;
     top: 38%;
