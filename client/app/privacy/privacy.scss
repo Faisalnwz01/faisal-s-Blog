@@ -1,0 +1,18 @@
+.privacyText {
+    font-family: "medium-content-serif-font", Georgia, Cambria, "Times New Roman", Times, serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -0.003em;
+}
+
+.privacyContainter {
+    width: 75%;
+    position: absolute;
+    right: 24px;
+    top: 110px;
+    margin-bottom: 3%;
+    z-index: 4;
+}

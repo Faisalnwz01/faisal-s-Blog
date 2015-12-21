@@ -41,7 +41,7 @@ angular.module('resumeApp')
   return {
     restrict: 'C',
     transclude: true,
-    template: '<div class="col-md-8 slide-top" ng-if="itemone" ng-transclude></div>'
+    template: '<div class="col-md-8 slide-top" ng-transclude></div>'
       // template: '<div class="info-container slide-top" ng-if="itemone" ng-transclude></div>'
   }
 })
@@ -53,7 +53,7 @@ angular.module('resumeApp')
   return {
     restrict: 'C',
     transclude: true,
-    template: '<div class="col-md-4 slide-top" ng-if="itemtwo" ng-transclude></div>'
+    template: '<div class="col-md-4 slide-top"  ng-transclude></div>'
       // template: '<div class="info-container-two slide-top" ng-if="itemtwo" ng-transclude></div>'
   }
 })
