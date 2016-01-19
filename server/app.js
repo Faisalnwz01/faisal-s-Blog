@@ -19,7 +19,7 @@ app.all('/', function(req, res, next) {
   // res.header("Access-Control-Allow-Headers", "X-Requested-With");
   next();
  });
- app.use(helmet());
+ // app.use(helmet());
 
 app.use(helmet.frameguard('allow-from', 'http://faisal.nyc'));
 // Start server

@@ -285,9 +285,9 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: '<%= yeoman.client %>/assets/images',
+          cwd: '<%= yeoman.client %>/client/assets/img',
           src: '{,*/}*.{png,jpg,jpeg,gif,svg}',
-          dest: '<%= yeoman.dist %>/client/assets/images'
+          dest: '<%= yeoman.dist %>/client/assets/img'
         }]
       }
     },
@@ -357,7 +357,6 @@ module.exports = function (grunt) {
             'index.html',
             'assets/img/**/*',
             'contents/**/*',
-            'img/**/*',
             'json/**/*'
           ]
         }, {
@@ -425,9 +424,8 @@ module.exports = function (grunt) {
       },
       dist: [
         'newer:babel:client',
-        'sass'
-        // ,
-        // 'imagemin'
+        'sass',
+         'imagemin'
       ]
     },
 

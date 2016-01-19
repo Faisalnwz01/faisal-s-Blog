@@ -2,27 +2,25 @@
     <div data-ng-include="loadViews" class="slide-top" data-ng-if="menu">
     </div>
     <div class="portfolio-page" data-ng-if="!menu">
-      <h1 class="title primary-font">Portfolio</h1>
-
-      <div class="single-info-container currentProj">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="assets/img/cityGrade.png">
-          </div>
-          <div class="col-md-9">
-            <h1 class="title primary-font">Current Project</h1>
-            <h4>City Grade lets you know the truth behind NYC restaurant health grades. Even if you see a window with an A, mice may be infesting and undercooked food being served. City Grade lets you know where NOT to eat! Want to know your favorite restaurant's darkest secrets? Download City Grade now!</h4>
-            <div class="column">
-              <h4 class="loading-items">You can get it on </h4>
-            <a href="https://play.google.com/store/apps/details?id=com.stackers.CityGrade2" style="cursor:pointer;"><img ng-click="" style="width: 172px;height: 60px;" src="assets/img/en_generic_rgb_wo_60.png"></a>
-          </div>
-          </div>
+        <h1 class="title primary-font">Portfolio</h1>
+        <div class="single-info-container currentProj">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/img/cityGrade.png">
+                </div>
+                <div class="col-md-9">
+                    <h1 class="title primary-font">Current Project</h1>
+                    <h4>City Grade lets you know the truth behind NYC restaurant health grades. Even if you see a window with an A, mice may be infesting and undercooked food being served. City Grade lets you know where NOT to eat! Want to know your favorite restaurant's darkest secrets? Download City Grade now!</h4>
+                    <div class="column">
+                        <h4 class="loading-items">You can get it on </h4>
+                        <a href="https://play.google.com/store/apps/details?id=com.stackers.CityGrade2" style="cursor:pointer;"><img ng-click="" style="width: 172px;height: 60px;" src="assets/img/en_generic_rgb_wo_60.png"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </div>
         <h1 class="title primary-font">Past Projects</h1>
-        <div ng-repeat="elm in mainpPortfolio " style="max-height: 730px;" class="info-content loading-items primary slide-top" path="{{elm.path}}">
-            <img ng-src="{{elm.portfolioImg}}" alt="">
+        <div ng-repeat="elm in mainpPortfolio " style="max-height: 730px;margin-top: 20px;" class="info-content loading-items primary slide-top" path="{{elm.path}}">
+            <img style="max-height: 730px;" ng-src="{{elm.portfolioImg}}" alt="">
             <div class="cover primary">
                 <img ng-src="{{elm.avatarImg}}" alt="" class="portfolio-avatar">
                 <span class="icon">
@@ -31,13 +29,96 @@
                 <h2 class="info-title loading-items" path="contents/single-portfolio.html" ng-bind-html="elm.description"></h2>
             </div>
         </div>
-        <div class="pagination">
+        <br>
+    </div>
+    <section class="latest section">
+        <div class="section-inner">
+            <!-- <h2 class="heading">Past Projects</h2> -->
+            <div class="content">
+                <div class="item featured text-center">
+                    <h3 class="title"><a href="https://github.com/Faisalnwz01/jobsies-webapp" target="_blank">Jobsies</a></h3>
+                    <p class="summary">Web and mobile App Built to simplify job search and application process</p>
+                    <div class="featured-image">
+                        <a href="https://github.com/Faisalnwz01/jobsies-webapp" target="_blank">
+                            <img class="img-responsive project-image" src="assets/img/jobsies.png" alt="project name" />
+                        </a>
+                        <!--  <div class="ribbon">
+                                    <div class="text">Active</div>
+                                </div> -->
+                    </div>
+                    <div class="desc text-left">
+                        <p>• Integrated LinkedIn and Indeed APIs to match users profiles with relevant job posts.
+                            <br> • Generated resumes with dynamic covers letters using users LinkedIn profiles, and cheerio.js scraped data from job posts.
+                            <br> • Enabled recruiters to post jobs and view limited information on users who liked those jobs.
+                            <br> • Designed sleek mobile UI using ionic enabling users to swipe through job descriptions, and auto apply to jobs.
+                            <br> • Developed complex database model with user-restricted layers of information access.
+                            <br> • A unoque resume letter and Cover letter will be generated for each job saved.
+                            <br> • A unique url will be provided with a clients cover letter and resume which can be a accessed by anyone anywhere.</p>
+                    </div>
+                    <!--//desc-->
+                    <a class="btn btn-cta-secondary" href="https://github.com/Faisalnwz01/jobsies-webapp" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>
+                </div>
+                <!--//item-->
+                <hr class="divider" />
+                <div class="item row">
+                    <a class="col-md-4 col-sm-4 col-xs-12" href="trait.herokuapp.com/login" target="_blank">
+                        <img class="img-responsive project-image" src="assets/img/trait.png" alt="project name" />
+                    </a>
+                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                        <h3 class="title"><a href="http://trait.herokuapp.com/login" target="_blank">Trait - Social-Media personality Analysis</a></h3>
+                        <p><strong>Web App that analyzes personality traits based on Linkedin profile, tweets, and/or input.</strong>
+                            <br> • Won Most Technically Challenging Award at Fullstack Academy of Code Hackathon 2015
+                            <br> • Incorporated the IBM Watson User Modeling API with LinkedIn and twitter APIs to analyze users personality traits • Developed routes and API integration with AngularJs, and Express.js • Engineered slick UI using angular material-ui, and managed data with interactive d3 graph</p>
+                        <p><a class="more-link" href="http://trait.herokuapp.com/login" target="_blank"><i class="fa fa-external-link"></i> Find out more</a>
+                        </p>
+                    </div>
+                    <!--//desc-->
+                </div>
+                <!--//item-->
+                <div class="item row">
+                    <a class="col-md-4 col-sm-4 col-xs-12" href="https://theknowyorktimesquiz.herokuapp.com" target="_blank">
+                        <img class="img-responsive project-image" src="assets/img/NYtimes.png" alt="project name" />
+                    </a>
+                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                        <h3 class="title"><a href="https://theknowyorktimesquiz.herokuapp.com" target="_blank">KnowYorkTimes  - NYT Hackathon Winner</a></h3>
+                        <p><strong>A New York Times Hackathon project. Built a game algorithm for NYT that takes in articles from NYT API and outputs a quiz based on that article.</strong>
+                            <br> • Utilized the New York Times API to get the day's articles and Alchemy API to determine key phrases, built with Google’s Material UI design philosophy.
+                            <br> • With less than 10 API calls, over 3000 unique questions can be generated. Built on MEAN stack. • Won Best Use of a New York Times API at Times Open Hack Day 2014.
+                        </p>
+                        <!--  <p><a class="more-link" href="https://theknowyorktimesquiz.herokuapp.com" target="_blank"><i class="fa fa-external-link"></i> Find out more</a>
+                                </p> -->
+                    </div>
+                    <!--//desc-->
+                </div>
+                <!--//item-->
+                <div class="item row">
+                    <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/Faisalnwz01/stackstore" target="_blank">
+                        <img class="img-responsive project-image" src="assets/img/stackstore.png" alt="project name" />
+                    </a>
+                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                        <h3 class="title"><a href="https://github.com/Faisalnwz01/stackstore" target="_blank">StackStore - Designed for E-commerce </a></h3>
+                        <p> <strong>E-commerce website that includes all aspects of shopping online; include shopping by category, checkout with Stripe, a recommendation engine, and fully built shopping cart.</strong>
+                            <br> • Used Stripe API to make the checkout and payment a seamless process.
+                            <br> • Built on Mean Stack, includes a MongoDB for database to store all products with completely built schemas.
+                            <br> • Has complete user and admin side, user can view and purchase items and admin can post, delete and update items.
+                        </p>
+                        <p><a class="more-link" href="https://github.com/Faisalnwz01/stackstore" target="_blank"><i class="fa fa-external-link"></i> Find out more</a>
+                        </p>
+                    </div>
+                    <!--//desc-->
+                </div>
+                <!--//item-->
+            </div>
+            <!--//content-->
+        </div>
+        <!--//section-inner-->
+    </section>
+    <!--   <div class="pagination">
             <a href="" class="page-num current">1</a>
             <a href="" class="page-num">2</a>
             <a href="" class="page-num">3</a>
             <a href="" class="page-num dots">...</a>
             <a href="" class="page-num">6</a>
             <a href="" class="page-num next">next</a>
-        </div>
-    </div>
+        </div> -->
 </section>

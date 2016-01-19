@@ -3,6 +3,7 @@
 
 function MainController($scope, $rootScope, $timeout, $location, $anchorScroll, $http, $sce) {
   $scope.colorContainer = false;
+  console.log($location.path())
   $scope.openColorChanger = function() {
       return $scope.colorContainer = !$scope.colorContainer;
   }
